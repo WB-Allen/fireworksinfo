@@ -282,19 +282,19 @@ body {
     right: 10px;
     width: 48px;
     height: 48px;
-    background: var(--accent-color);
+    background: none;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 44px;
+    color: var(--accent-color);
+    font-size: 40px;
     line-height: 1;
     font-weight: 300;
     cursor: pointer;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
     z-index: 1010;
     transition: var(--transition);
+    border: 2px solid var(--accent-color);
 }
 
 .close-modal:active {
