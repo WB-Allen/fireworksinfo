@@ -92,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="product-card">
                 <div class="product-img-wrapper">
                     <img src="${imgSrc}" class="product-img" alt="${product['名称']}" onerror="this.src='https://via.placeholder.com/100x100?text=Firework'">
+                    <div class="zoom-icon">🔍</div>
                 </div>
                 <div class="product-info">
                     <div>

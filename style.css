@@ -115,6 +115,24 @@ body {
     overflow: hidden;
     flex-shrink: 0;
     background-color: #252529;
+    position: relative;
+}
+
+.zoom-icon {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    pointer-events: none;
+    backdrop-filter: blur(2px);
 }
 
 .product-img {
