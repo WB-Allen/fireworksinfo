@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>烟花产品信息展示</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar" id="sidebar">
+            <div class="nav-item active" data-category="全部">全部</div>
+            <!-- Dynamic Categories -->
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <div class="category-header" id="current-category">全部</div>
+            <div class="product-list" id="product-list">
+                <!-- Dynamic Products -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Preview Modal -->
+    <div id="image-modal" class="modal">
+        <div class="modal-wrapper">
+            <div class="close-modal">&times;</div>
+            <img class="modal-content" id="modal-img">
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
